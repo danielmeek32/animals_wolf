@@ -121,7 +121,7 @@ local def = {
 					end
 					if new_colour ~= "none" then
 						if not core.setting_getbool("creative_mode") then
-							item:set_count(item:get_count() - 1)
+							item:take_item()
 							clicker:set_wielded_item(item)
 						end
 					end
