@@ -103,6 +103,11 @@ local def = {
 		update_collar(self)
 	end,
 
+	on_punch = function(self, puncher, time_from_last_punch, tool_capabilities, dir)
+		-- block punch if tamed
+		return self.tamed
+	end,
+
 	on_rightclick = function(self, clicker)
 		if self.tamed == true then
 			if clicker:get_player_control().sneak == true then	-- change collar
