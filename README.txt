@@ -1,9 +1,8 @@
 Wolf for Animals mod
-==============================
+====================
 Copyright (c) 2017 Daniel <https://github.com/danielmeek32>
 
-Version: 1.0 Alpha
-
+Version: 2.0
 
 Adds wolves to Minetest (requires Animals mod available from https://github.com/danielmeek32/animals).
 
@@ -23,9 +22,8 @@ If their owner is a long distance away or cannot be found, they will sit down.
 Tamed wolves can be instructed to sit down by right-clicking on them.
 When sitting, tamed wolves will not move until they are instructed to stand up by right-clicking on them or until their owner holds flesh or cooked meat nearby.
 
-
 License: 
-~~~~~~~~
+--------
 Code:
 (c) Copyright 2017 Daniel; GPLv3
 see "LICENSE.txt" for details.
@@ -41,7 +39,6 @@ Sounds:
 - animals_wolf_whimper.1.ogg, Living with Wolves (https://www.livingwithwolves.org/about-wolves/language/)
 - animals_wolf_whimper.2.ogg, Living with Wolves (https://www.livingwithwolves.org/about-wolves/language/)
 
-
 Github:
-~~~~~~~
+-------
 https://github.com/danielmeek32/animals_wolf
