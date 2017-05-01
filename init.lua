@@ -206,7 +206,7 @@ register_collar("Light Grey Collar", "light_grey");
 register_collar("White Collar", "white");
 
 minetest.register_craft({
-	output = "animals_wolf:collar_white",
+	output = "animals_wolf:collar_white 2",
 	recipe = {
 		{"wool:white", "wool:white", "wool:white"},
 		{"wool:white", "", "wool:white"},
