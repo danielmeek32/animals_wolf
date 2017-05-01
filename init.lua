@@ -41,7 +41,6 @@ local def = {
 	model = {
 		mesh = "animals_wolf.b3d",
 		textures = {"animals_wolf.png"},
-		collisionbox = {-0.4, 0, -0.4, 0.4, 1.25, 0.4},
 		scale = {x = 10, y = 10},
 		rotation = -90.0,
 		collide_with_objects = true,
